@@ -7,8 +7,7 @@ import ColumnItems from './column-items';
 export default function App() {
   return (
     <View>
-      <Text style={ commonStyles.textTitle }>Open up App.js to start working on your app!</Text>
-      <Text style={ commonStyles.textPlain }>ณัฐพงศ์</Text>
+      <Text style={ commonStyles.flex }>Open up App.js to start working on your app!</Text>
       <ColumnItems />
       <StatusBar style="auto" />
     </View>

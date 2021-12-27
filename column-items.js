@@ -20,14 +20,18 @@ return (
 
 const styles = StyleSheet.create({
     container: {
-    flex: 1,
-    flexDirection: 'column', 
-    marginTop: 50, padding: 10
+    flex: 1, 
+    display: 'flex',
+    flexWrap: 'wrap',
+    flexDirection: 'row',
     },
     items: {
-    height: 60, backgroundColor: 'lightgray',
+    backgroundColor: 'lightgray',
     justifyContent: 'center', 
-    marginBottom: 15, paddingLeft: 10,
+    alignItems: 'center',
+    marginBottom: 5, 
+    width: '50%',
+    height: '200px',
     text: { color: 'blue', fontSize: 20 }
     },
     })
